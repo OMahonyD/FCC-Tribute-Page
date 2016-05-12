@@ -1,0 +1,56 @@
+html, body {
+}
+
+h1, h2 {
+  font-family: 'Alegreya SC', serif;
+  
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+h3, blockquote {
+  font-family: 'Cantata One', sans-serif;
+  padding: 10px 50px 10px 50px;
+  
+}
+
+.well{
+    margin: 0 10% 0 10%
+}
+
+img {
+  margin: 0 auto;
+  border-radius: 10%;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+
+ul {
+  padding-left: 10%;
+  padding-right: 15%;
+  text-align: justify
+}
+
+footer {
+  padding: 20px 0 20px 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    img {
+        width: 70%;
+    }
+  iframe {
+    width: 70%;
+    height: 70%;
+    padding-left: 20%;
+  }
+  
+}
+
